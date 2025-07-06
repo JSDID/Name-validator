@@ -296,7 +296,6 @@ window.nameValidator.setConfig({ allowSpecialChars: true });
 
 ### Автоматизированное тестирование
 ```javascript
-// Пример тестов
 describe('Name Validator', () => {
   it('should validate correct names', () => {
     expect(window.nameValidator.validateNameString('Иван', 'firstName')).toBe(true);
